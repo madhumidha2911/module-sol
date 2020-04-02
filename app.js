@@ -26,7 +26,7 @@ function LunchCheckcontroller($scope){
 		if(items>=1 && items<=3){
 			$scope.message="Enjoy!";
 		}
-		else{
+		if(items >3){
 			$scope.message="Too much!"
 		}
 	}
